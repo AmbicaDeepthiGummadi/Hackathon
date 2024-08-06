@@ -1,0 +1,177 @@
+nav{
+    background-color:cadetblue;
+    color: white;
+    padding: 35px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display :inline;
+    margin-right :20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:chartreuse;
+}
+nav ul li a:hover{
+    text-decoration:none;
+    color: rgb(255, 0, 221);
+}
+body{
+    background: url("back.jpg");
+}
+.logo {
+  margin: 0;
+  margin-left: 20px;
+  max-width: 85px;
+  border-radius: 50px;
+}
+footer{margin-top: 20%;}
+footer{
+  background-color:cornflowerblue;
+  box-shadow: 10px 10px 10px coral;
+  color: rgb(2, 2, 7);
+  text-align: center;
+  padding-top: 15px;   
+  padding-bottom: 15px;
+    
+}
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 40vh;
+    background: #fff;
+    border-radius: 15px;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.main{
+    border-radius: 15px;
+    background:radial-gradient(circle,rgb(0, 255, 234),bisque,rgb(0, 255, 191));
+    box-shadow: 10px 10px 10px hotpink;padding: 10px 20px;
+    transition: transform 0.2s;width: 500px;text-align: center;
+}
+.main1{
+    border-radius: 15px;
+    background:linear-gradient(to bottom right,rgb(235, 76, 155),rgb(135, 236, 105));
+    box-shadow: 10px 10px 10px rgb(214, 226, 49);padding: 10px 20px;
+    transition: transform 0.2s;width: 500px;text-align: center;
+}
+label { 
+    display: block;width: 100%;margin-top: 10px;margin-bottom: 5px;
+    text-align: left;color: #555;font-weight: bold;}
+input {display: block;width: 100%;margin-bottom: 15px;padding: 10px;
+            box-sizing: border-box;border: 1px solid #ddd;border-radius: 5px;}
+button { padding: 15px; border-radius: 10px;margin-top: 15px;margin-bottom: 15px;
+     border: none;color: white; cursor: pointer;background-color: #4CAF50; width: 100%;font-size: 16px;}
+    .wrap {display: flex;justify-content: center;align-items: center; }
+select {width: 100%;margin-bottom: 15px;padding: 10px;box-sizing: border-box;border: 1px solid #ddd;border-radius: 5px;}
+
+.button { padding: 15px; border-radius: 10px;margin-top: 15px;margin-bottom: 15px;
+    border: none;color: white; cursor: pointer;background-color: #ff6347; width: 30%;font-size: 16px;}
+.hero {
+    background: url('back.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.booking-form {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.booking-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.booking-form button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.d{
+    text-align: center;
+    height:320px;
+    width: 300px;
+    font-size: large;
+    background-color:greenyellow;
+    background:radial-gradient(circle,rgb(245, 76, 234),bisque,rgb(209, 233, 54));
+    box-shadow: 10px 10px 10px hotpink;
+    border-radius: 12px;
+}
+
+.container{
+    .container{
+        margin:0 auto;background: rgb(211, 199, 38);
+        box-sizing: border-box;
+    }
+    @media screen and (min-width:320px){
+    .container d{width:100%;padding: 5px 10px;}
+}
+    @media screen and (min-width:768px) and (max-width:1024){
+    .container{
+        width: 750px;padding: 5px 10px;
+    }
+}
+    @media screen and (min-width:1024px){
+    .container{
+       width: 980px;padding: 5px 15px;
+    }
+}
+@media screen and (min-width:1280px){
+    .container{
+        width: 1200px;padding: 5px 20px;
+    }
+}
+}

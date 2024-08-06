@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlines</title>
+    <link rel="stylesheet" href="./Mystyles.css">
+    <style>
+     @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;}}
+    </style>
+</head>
+<body class="container">
+    <script>
+        function validate(){
+            var name=document.myform.uname.value;
+            var password=document.myform.pass.value;
+            if(name==""||name==null){
+                alert("Name Shoult not be blank")
+                return false
+            }
+            if(password.length<6){
+                alert("Password must contain 6 characters")
+                return false
+            }
+            return true
+        }
+    </script>
+    <header align="right">
+        <img src="logo.png" alt="AirTravel" class="logo" align="left">
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Book.html">Book Now</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="Reg.html">Register</a></li>
+                <li><a href="Login.html">Sign in</a></li>
+            </ul>
+        </nav>
+    </header><br><br>
+    <h2 align="center">Login Form:</h2>
+        <div class="body">
+            <div class="main">
+                <h3>Enter your login credentials</h3><br>
+                <form action="Loginsuccess.html"name="myform" onsubmit="return validate(this)">
+                    <span  class="input-group-addon"><i class="glyphicon glyphicon-user"></i>
+                    <label for="first">Username:</label>
+                    <input type="text" id="first" name="name" placeholder="Enter your Username"></span><br>
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="pass" placeholder="Enter your Password" required></span><br>
+                    <div class="wrap"><button type="submit" class="btn btn-success">Submit</button></div>
+                </form>
+                <p>Not registered?<a href="Registrationpage.html" style="text-decoration: none;">Create an account</a></p>
+        </div></div>
+    </form>
+    <footer>
+        <b>&copy; My Airlines 2024. All Rights Reserved</b>
+    </footer>
+</body>
+</html>
